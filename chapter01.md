@@ -1,5 +1,6 @@
 ###Chapter 1 Using neural nets to recognize handwritten digits
 
+
 Two important types of artificial neuron:
 - Perceptron
 - Sigmoid neuron
@@ -8,6 +9,7 @@ Standard learning algorithm for neural networks:
 - Stochastic gradient descent
 
 ###Perceptrons
+
 We proposed a simple rule to compute the output, which is _weights_, _w1_, _w2_, real numbers expressing the importance of the respective inputs to the output. The neuron's output, 0 or 1, is determined by whether the weighted sum ∑wjxj is less than or greater than some _threshold value_. Just like the weights, the threshold is a real number which is a parameter of the neuron.</br>
 To put it in more precise algebraic terms:
 
